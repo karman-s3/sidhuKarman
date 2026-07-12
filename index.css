@@ -175,8 +175,9 @@ transition:0.3s;
 }
 
 .about p{
-    max-width:650px;
+    max-width:700px;
     text-align:center;
+    text-wrap:balance;
     line-height:1.8;
     margin:0 auto 35px;
     color:#ddd;
