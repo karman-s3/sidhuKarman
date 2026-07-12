@@ -167,14 +167,6 @@ transition:0.3s;
     align-items:center;
 }
 
-.about p{
-    width:100%;
-    max-width:750px;
-    text-align:left;
-    line-height:1.7;
-    margin-bottom:35px;
-    color:#ddd;
-}
 
 .about h2{
     color:#B59CFF;
