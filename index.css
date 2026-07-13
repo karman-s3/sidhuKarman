@@ -116,27 +116,6 @@ box-shadow:
 border-right:1px solid rgba(181,156,255,.15);
 
 }
-.sidebar::before{
-
-content:"";
-
-position:absolute;
-
-right:-100vw;
-
-top:0;
-
-height:100%;
-
-width:100vw;
-
-background:rgba(0,0,0,.35);
-
-backdrop-filter:blur(5px);
-
-pointer-events:none;
-
-}
 
 .sidebar.active{
 left:0;
