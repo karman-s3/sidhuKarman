@@ -145,6 +145,12 @@ transition:0.3s;
 background:#8E7BFF;
 }
 
+.button-group{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
 .site-footer{
     background:#101738;
     margin-top:80px;
