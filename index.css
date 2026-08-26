@@ -194,57 +194,110 @@ padding-left:45px;
     gap:12px;
 }
 
+/* HERO */
+
 .hero{
-    min-height:50vh;
+    min-height:100svh;
+    width:100%;
+
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    text-align:center;
-    padding:120px 20px 50px;
 
-    gap:10px;
+    text-align:center;
+
+    padding:110px 24px 70px;
+
+    gap:14px;
 }
+
+
+/* Portfolio title */
 
 .portfolio-title{
     color:#B59CFF;
     letter-spacing:2px;
     margin:0;
+
     text-align:center;
+
+    font-size:clamp(0.85rem, 2vw, 1.05rem);
 }
+
+
+/* Name */
 
 .hero h1{
-    font-size:5.5rem;
-    margin:0;
-    line-height:1.1;
-    letter-spacing:-2px;
+    font-family:'Poppins', sans-serif;
+
+    font-size:clamp(4.5rem, 9vw, 8.5rem);
+
+    font-weight:600;
+
+    font-style:italic;
+
+    letter-spacing:-5px;
+
+    line-height:0.95;
+
+    margin:8px 0 4px;
+
+    transform:skewX(-5deg);
 }
+
+
+/* Subtitle */
 
 .subtitle{
-    margin-top:5px;
-    font-size:1.2rem;
+    margin:4px 0 0;
+
+    font-size:clamp(1rem, 2vw, 1.25rem);
+
     color:#ccc;
+
+    max-width:700px;
 }
 
 
+/* Buttons */
+
+.button-group{
+    margin-top:18px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+}
+
+
+/* Scroll indicator */
 
 .scroll-down{
-    margin-top:20px;
+    position:absolute;
+
+    bottom:32px;
+
     font-size:0.9rem;
+
     color:#B59CFF;
+
     opacity:0.8;
 }
 
 
+/* Needed for absolute scroll positioning */
 
-.button-group{
-    margin-top:12px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:15px;
-    flex-wrap:wrap;
-} 
+.hero{
+    position:relative;
+}
+
 
 .btn{
 text-decoration:none;
