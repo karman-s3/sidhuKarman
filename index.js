@@ -38,3 +38,33 @@ window.addEventListener("load", () => {
     }, 2000); // 👈 2 second pause
 
 });
+
+
+/* ============================= */
+/* SCROLL REVEAL EFFECTS */
+/* ============================= */
+
+const revealElements = document.querySelectorAll(
+    '.about-intro, .interests-section, .skills-section'
+);
+
+const revealObserver = new IntersectionObserver(
+    (entries) => {
+
+        entries.forEach((entry) => {
+
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+
+        });
+
+    },
+    {
+        threshold:0.15
+    }
+);
+
+revealElements.forEach((element) => {
+    revealObserver.observe(element);
+});
