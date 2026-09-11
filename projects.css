@@ -200,6 +200,7 @@ background:#8E7BFF;
     opacity:0.6;
 }
 
+/* resizing on smaller screens */
 @media (max-width: 768px) {
 
     .project-card {
